@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Final Exam</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+	
+
+
+
+	
+
+	<div class="login-area">
+		<div class="container">
+			<div class="row">
+				<div class="login-form">
+
+					<div class="alert-msg">
+						<div class="alert alert-success alert-dismissable" style="display:none;">
+							<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+							<strong>Success!</strong> Login Successful.
+						</div>
+						<div id="common-alert" class="alert alert-danger alert-dismissable" style="display:none;">
+							<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+							<strong>Error!</strong> Field must not be empty.
+						</div>
+						<div id="name-alert" class="alert alert-danger alert-dismissable" style="display:none;">
+							<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+							<strong>Error!</strong> Username must be minimum 4 characters long
+						</div>
+
+						<div id="pass-alert" class="alert alert-danger alert-dismissable" style="display:none;">
+							<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+							<strong>Error!</strong> Password must be minimum 5 characters long
+						</div>
+
+					</div><!-- /.alert -->
+
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="username">Username</label>
+							<input type="text" id="username" class="form-control">
+						</div>
+					</div>
+
+
+
+					<div class="col-md-12">
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input type="password" id="password" class="form-control">
+						</div>
+					</div>
+
+
+					<div class="col-md-12">
+						<div class="form-group">
+							<button class="btn btn-info" id="reset">Reset</button>
+							<button class="btn btn-success pull-right" id="login">Login</button>
+						</div>
+					</div>
+
+
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
